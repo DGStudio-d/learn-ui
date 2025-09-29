@@ -9,11 +9,11 @@ type BadgeProps = React.HTMLAttributes<HTMLSpanElement> & {
 
 export function Badge({ className, variant = "default", ...props }: BadgeProps) {
   const variants: Record<string, string> = {
-    default: "inline-flex items-center rounded-full bg-gray-100 text-gray-800 px-2 py-0.5 text-xs",
-    secondary: "inline-flex items-center rounded-full bg-gray-200 text-gray-800 px-2 py-0.5 text-xs",
-    success: "inline-flex items-center rounded-full bg-green-100 text-green-800 px-2 py-0.5 text-xs",
-    destructive: "inline-flex items-center rounded-full bg-red-100 text-red-800 px-2 py-0.5 text-xs",
-    outline: "inline-flex items-center rounded-full border border-gray-300 text-gray-700 px-2 py-0.5 text-xs",
+    default: "inline-flex items-center rounded-full bg-[var(--secondary)] text-[var(--secondary-foreground)] px-2 py-0.5 text-xs",
+    secondary: "inline-flex items-center rounded-full bg-[var(--muted)] text-[var(--muted-foreground)] px-2 py-0.5 text-xs",
+    success: "inline-flex items-center rounded-full bg-[color-mix(in_srgb,_var(--success)_15%,_transparent)] text-[var(--success)] px-2 py-0.5 text-xs",
+    destructive: "inline-flex items-center rounded-full bg-[color-mix(in_srgb,_var(--destructive)_15%,_transparent)] text-[var(--destructive)] px-2 py-0.5 text-xs",
+    outline: "inline-flex items-center rounded-full border border-[var(--border)] text-[var(--foreground)] px-2 py-0.5 text-xs",
   };
   return <span className={cn(variants[variant], className)} {...props} />;
 }

@@ -13,9 +13,9 @@ export function Button({ className, variant = "default", size = "md", asChild = 
   const base = "inline-flex items-center justify-center rounded font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--ring)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--ring-offset)] disabled:opacity-60 disabled:pointer-events-none active:translate-y-[0.5px] shadow-sm";
   const variants: Record<string, string> = {
     default: "bg-[var(--primary)] text-white hover:bg-[var(--primary-hover)]",
-    outline: "border border-[color:var(--primary)] text-[color:var(--primary)] hover:bg-[color-mix(in_srgb,_var(--primary)_8%,_transparent)]",
-    destructive: "bg-red-600 text-white hover:bg-red-700",
-    ghost: "text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800",
+    outline: "border border-[var(--primary)] text-[var(--primary)] hover:bg-[color-mix(in_srgb,_var(--primary)_8%,_transparent)]",
+    destructive: "bg-[var(--destructive)] text-[var(--destructive-foreground)] hover:bg-[color-mix(in_srgb,_var(--destructive)_90%,_black)]",
+    ghost: "text-[var(--foreground)] hover:bg-[var(--secondary)] hover:text-[var(--secondary-foreground)]",
   };
   const sizes: Record<string, string> = {
     sm: "text-sm px-3 py-1.5 h-8",

@@ -10,8 +10,8 @@ type ProgressProps = React.HTMLAttributes<HTMLDivElement> & {
 export function Progress({ className, value = 0, ...props }: ProgressProps) {
   const pct = Math.max(0, Math.min(100, value));
   return (
-    <div className={cn("w-full h-2 bg-gray-200 rounded", className)} {...props}>
-      <div className="h-2 bg-green-600 rounded" style={{ width: `${pct}%` }} />
+    <div className={cn("w-full h-2 bg-[var(--secondary)] rounded", className)} {...props}>
+      <div className="h-2 bg-[var(--primary)] rounded transition-all duration-300" style={{ width: `${pct}%` }} />
     </div>
   );
 }

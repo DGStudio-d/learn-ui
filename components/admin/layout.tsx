@@ -20,8 +20,8 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen grid md:grid-cols-[220px_1fr]">
       {/* Sidebar */}
-      <aside className="border-r bg-white">
-        <div className="p-4 font-bold text-green-700 text-lg">Admin</div>
+      <aside className="border-r border-[var(--border)] bg-[var(--card)]">
+        <div className="p-4 font-bold text-[var(--primary)] text-lg">Admin</div>
         <nav className="p-2 grid gap-1 text-sm">
           {navItems.map(({ href, label }) => {
             const isActive = pathname === href;
@@ -33,8 +33,8 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
                 className={cn(
                   "px-3 py-2 rounded transition-colors",
                   isActive
-                    ? "bg-green-100 text-green-700 font-medium"
-                    : "hover:bg-gray-50"
+                    ? "bg-[color-mix(in_srgb,_var(--primary)_15%,_transparent)] text-[var(--primary)] font-medium"
+                    : "text-[var(--foreground)] hover:bg-[var(--secondary)]"
                 )}
               >
                 {label}
@@ -45,7 +45,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
       </aside>
 
       {/* Main Content */}
-      <main className="bg-gray-50">
+      <main className="bg-[var(--background)]">
         <div className="max-w-6xl mx-auto p-6">{children}</div>
       </main>
     </div>

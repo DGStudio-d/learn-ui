@@ -51,18 +51,18 @@ export default function Hero() {
             </motion.div>
             
             <motion.h1 
-              className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight"
+              className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[var(--foreground)] leading-tight"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <span className="block">{t("hero.title.line1", "High-quality language")}</span>
-              <span className="block text-green-600">{t("hero.title.line2", "courses at reasonable")}</span>
+              <span className="block text-[var(--primary)]">{t("hero.title.line2", "courses at reasonable")}</span>
               <span className="block">{t("hero.title.line3", "prices")}</span>
             </motion.h1>
             
             <motion.p 
-              className="text-lg text-gray-600 leading-relaxed max-w-xl"
+              className="text-lg text-[var(--muted-foreground)] leading-relaxed max-w-xl"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}

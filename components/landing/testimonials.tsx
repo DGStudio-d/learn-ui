@@ -15,11 +15,11 @@ export default function Testimonials() {
     locale === "ar" ? "ماذا يقول طلابنا" : locale === "es" ? "Qué dicen nuestros alumnos" : "What our students say";
 
   return (
-    <section className="bg-green-700 text-white">
+    <section className="bg-[var(--primary)] text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         <h2 className="text-2xl font-bold text-center mb-6">{title}</h2>
-        <div className="bg-white text-gray-800 rounded shadow p-6 md:p-10">
-          <div className="text-4xl text-green-700 mb-4">“</div>
+        <div className="bg-[var(--card)] text-[var(--card-foreground)] rounded shadow p-6 md:p-10">
+          <div className="text-4xl text-[var(--primary)] mb-4">"</div>
           <p className="leading-relaxed">{quote}</p>
         </div>
       </div>

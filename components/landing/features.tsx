@@ -57,10 +57,10 @@ export default function Features() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-[var(--foreground)] mb-4">
             {t("features.title", "Why choose us?")}
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-[var(--muted-foreground)] max-w-2xl mx-auto">
             {t("features.subtitle", "We provide the best learning experience with our comprehensive approach")}
           </p>
         </motion.div>

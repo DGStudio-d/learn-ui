@@ -10,7 +10,7 @@ type AvatarImageProps = React.ImgHTMLAttributes<HTMLImageElement>;
 type AvatarFallbackProps = React.HTMLAttributes<HTMLSpanElement>;
 
 export function Avatar({ className, ...props }: AvatarProps) {
-  return <div className={cn("inline-flex items-center justify-center rounded-full bg-gray-100 overflow-hidden", className)} {...props} />;
+  return <div className={cn("inline-flex items-center justify-center rounded-full bg-[var(--secondary)] overflow-hidden", className)} {...props} />;
 }
 
 export function AvatarImage({ className, ...props }: AvatarImageProps) {
@@ -18,5 +18,5 @@ export function AvatarImage({ className, ...props }: AvatarImageProps) {
 }
 
 export function AvatarFallback({ className, ...props }: AvatarFallbackProps) {
-  return <span className={cn("text-gray-500", className)} {...props} />;
+  return <span className={cn("text-[var(--muted-foreground)]", className)} {...props} />;
 }
