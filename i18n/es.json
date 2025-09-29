@@ -1,0 +1,299 @@
+{
+  "app": {
+    "title": "Academia de Aprendizaje"
+  },
+  "nav": {
+    "languages": "Idiomas",
+    "teachers": "Profesores",
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "home": "Inicio",
+    "pricing": "Precios",
+    "schedule": "Horario",
+    "contact": "Contacto",
+    "primary": "Navegación Principal",
+    "dashboard": "Panel",
+    "language": "Idioma",
+    "theme": "Tema",
+    "logout": "Cerrar sesión",
+    "open_menu": "Abrir menú",
+    "close_menu": "Cerrar menú"
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenido de nuevo",
+      "subtitle": "Inicia sesión en tu cuenta para continuar",
+      "email": "Correo electrónico",
+      "email_placeholder": "Ingresa tu correo electrónico",
+      "password": "Contraseña",
+      "password_placeholder": "Ingresa tu contraseña",
+      "submit": "Iniciar sesión",
+      "signing_in": "Iniciando sesión...",
+      "error": "Error al iniciar sesión",
+      "no_account": "¿No tienes una cuenta?",
+      "sign_up": "Regístrate",
+      "forgot_password": "¿Olvidaste tu contraseña?",
+      "show_password": "Mostrar contraseña",
+      "hide_password": "Ocultar contraseña"
+    },
+    "register": {
+      "title": "Crea tu cuenta",
+      "subtitle": "Únete a nosotros y comienza tu viaje de aprendizaje de idiomas",
+      "name": "Nombre completo",
+      "name_placeholder": "Ingresa tu nombre completo",
+      "email": "Correo electrónico",
+      "email_placeholder": "Ingresa tu correo electrónico",
+      "password": "Contraseña",
+      "password_placeholder": "Crea una contraseña",
+      "language": "Idioma",
+      "select_language": "Selecciona un idioma",
+      "level": "Nivel",
+      "select_level": "Selecciona tu nivel",
+      "submit": "Crear cuenta",
+      "registering": "Creando cuenta...",
+      "error": "Error en el registro",
+      "have_account": "¿Ya tienes una cuenta?",
+      "sign_in": "Iniciar sesión"
+    }
+  },
+  "languages": {
+    "title": "Idiomas disponibles",
+    "subtitle": "Elige entre nuestra amplia selección de idiomas y comienza tu viaje de aprendizaje hoy.",
+    "levels": "Niveles",
+    "levels_available": "Niveles disponibles",
+    "teachers_available": "Profesores expertos disponibles",
+    "view_teachers": "Ver profesores",
+    "no_languages": "No hay idiomas disponibles",
+    "no_languages_desc": "Estamos trabajando en agregar más idiomas. ¡Vuelve pronto!",
+    "contact_us": "Contáctanos para más información"
+  },
+  "teachers": {
+    "title": "Profesores"
+  },
+  "programs": {
+    "quizzes": "Cuestionarios del programa",
+    "meetings": "Reuniones del programa",
+    "pass_score": "Puntuación mínima",
+    "preview_questions": "Ver preguntas"
+  },
+  "common": {
+    "back_to_dashboard": "Volver al panel",
+    "view_all": "Ver todo",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "page_of": "Página {page} de {pages}",
+    "saving": "Guardando…",
+    "saved": "Guardado.",
+    "save_error": "Error al guardar los cambios. Inténtalo de nuevo.",
+    "loading": "Cargando...",
+    "open": "Abrir",
+    "no_title": "(sin título)"
+  },
+  "meetings": {
+    "title": "Reuniones del programa",
+    "loading": "Cargando…",
+    "load_error": "No se pudieron cargar las reuniones.",
+    "join": "Unirse",
+    "empty": "Aún no hay reuniones."
+  },
+  "footer": {
+    "contact": "Contáctanos",
+    "quick_links": "Enlaces rápidos",
+    "about": "Acerca de",
+    "about_text": "Ofrecemos cursos de idiomas de alta calidad a precios razonables con profesores expertos.",
+    "rights": "Todos los derechos reservados."
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Panel de administración",
+      "overview": "Resumen",
+      "stats": {
+        "languages": "Idiomas",
+        "levels": "Niveles",
+        "programs": "Programas",
+        "meetings": "Reuniones"
+      },
+      "recent_programs": "Programas recientes",
+      "recent_meetings": "Reuniones próximas/recientes",
+      "no_programs": "No se encontraron programas.",
+      "no_meetings": "No se encontraron reuniones.",
+      "quick_actions": "Acciones rápidas",
+      "manage_languages": "Gestionar idiomas",
+      "manage_levels": "Gestionar niveles",
+      "manage_programs": "Gestionar programas",
+      "manage_meetings": "Gestionar reuniones",
+      "settings": "Configuración"
+    },
+    "settings": {
+      "title": "Configuración de administrador",
+      "loading": "Cargando configuración…",
+      "load_error": "No se pudo cargar la configuración.",
+      "guest_access": "Acceso de invitados",
+      "allow_guest_languages": "Permitir a invitados ver idiomas",
+      "allow_guest_teachers": "Permitir a invitados ver profesores",
+      "allow_guest_quizzes": "Permitir a invitados realizar cuestionarios"
+    }
+  },
+  "student": {
+    "sidebar": { "title": "Estudiante" },
+    "nav": {
+      "dashboard": "Panel",
+      "programs": "Programas",
+      "teachers": "Profesores",
+      "contact": "Contacto"
+    },
+    "dashboard": {
+      "title": "Panel del estudiante",
+      "welcome": "Bienvenido",
+      "loading": "Cargando panel…",
+      "load_error": "No se pudieron cargar algunos datos.",
+      "stats": {
+        "my_programs": "Mis programas",
+        "my_meetings": "Mis reuniones",
+        "teachers": "Profesores",
+        "browse": "Explorar"
+      },
+      "quick_start": "Inicio rápido",
+      "explore_programs": "Explorar programas",
+      "find_teacher": "Buscar un profesor",
+      "contact_support": "Contactar soporte",
+      "recent_programs": "Programas recientes",
+      "upcoming_meetings": "Reuniones próximas",
+      "no_programs": "Todavía no hay programas. Explora programas para comenzar.",
+      "no_meetings": "No hay reuniones programadas."
+    }
+  },
+  "hero": {
+    "tag": "Nuestros cursos",
+    "title": {
+      "line1": "Cursos de idiomas de",
+      "line2": "alta calidad a precios",
+      "line3": "razonables"
+    },
+    "subtitle": "Elige el idioma adecuado para ti: elimina barreras o comienza desde cero.",
+    "enroll": "Inscríbete ahora",
+    "explore": "Explorar idiomas"
+  },
+  "features": {
+    "title": "¿Por qué elegirnos?",
+    "subtitle": "Brindamos la mejor experiencia de aprendizaje con nuestro enfoque integral",
+    "small_groups": {
+      "title": "Grupos pequeños",
+      "desc": "Estudiantes limitados para mejor interacción"
+    },
+    "flexible_schedules": {
+      "title": "Horarios flexibles",
+      "desc": "Cursos matutinos y vespertinos"
+    },
+    "affordable_prices": {
+      "title": "Precios accesibles",
+      "desc": "Opciones para todos"
+    },
+    "high_quality": {
+      "title": "Alta calidad",
+      "desc": "Profesores expertos y contenido de calidad"
+    }
+  },
+  "contact": {
+    "title": "Ponte en contacto",
+    "subtitle": "¿Tienes preguntas sobre nuestros cursos? Nos encantaría saber de ti.",
+    "success": "¡Mensaje enviado exitosamente!",
+    "form": {
+      "title": "Envíanos un mensaje",
+      "subtitle": "Completa el formulario a continuación y te responderemos pronto.",
+      "name": "Nombre",
+      "name_placeholder": "Tu nombre completo",
+      "email": "Correo electrónico",
+      "email_placeholder": "tu@email.com",
+      "message": "Mensaje",
+      "message_placeholder": "Cuéntanos sobre tus objetivos de aprendizaje de idiomas...",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando..."
+    },
+    "info": {
+      "title": "Información de contacto",
+      "subtitle": "Contáctanos a través de cualquiera de estos canales."
+    },
+    "address": {
+      "title": "Dirección",
+      "content": "123 Calle del Aprendizaje, Ciudad Educativa"
+    },
+    "phone": {
+      "title": "Teléfono",
+      "content": "+1 (555) 123-4567"
+    },
+    "hours": {
+      "title": "Horario de oficina",
+      "content": "Lun-Vie: 9AM-6PM"
+    },
+    "cta": {
+      "title": "¿Listo para empezar a aprender?",
+      "subtitle": "Únete a miles de estudiantes que han mejorado sus habilidades lingüísticas con nosotros.",
+      "button": "Comienza hoy"
+    }
+  },
+  "pricing": {
+    "title": "Comienza tu viaje lingüístico",
+    "subtitle": "Únete a nuestro programa integral de aprendizaje de idiomas diseñado para todos los niveles. Contáctanos para precios personalizados.",
+    "contact_whatsapp": "Obtener precios vía WhatsApp",
+    "featured_plan": "Nuestro programa",
+    "plan": {
+      "name": "Programa de aprendizaje de idiomas",
+      "description": "Aprendizaje integral de idiomas con profesores expertos y horarios flexibles",
+      "feature1": "Programación flexible de lecciones",
+      "feature2": "Profesores nativos expertos",
+      "feature3": "Currículo personalizado",
+      "feature4": "Clases en grupos pequeños o individuales",
+      "feature5": "Todos los niveles bienvenidos",
+      "feature6": "Seguimiento del progreso y evaluaciones",
+      "feature7": "Materiales de aprendizaje incluidos",
+      "feature8": "Apoyo y orientación continua",
+      "cta": "Comenzar"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "q1": "¿Puedo cambiar mi plan en cualquier momento?",
+      "a1": "Sí, puedes actualizar o degradar tu plan en cualquier momento. Los cambios toman efecto en el próximo ciclo de facturación.",
+      "q2": "¿Hay una prueba gratuita?",
+      "a2": "Ofrecemos una prueba gratuita de 7 días para todos los nuevos estudiantes. No se requiere tarjeta de crédito para comenzar.",
+      "q3": "¿Qué pasa si me pierdo una lección?",
+      "a3": "Todas las lecciones se graban y están disponibles por 30 días. También puedes reprogramar con 24 horas de anticipación.",
+      "q4": "¿Ofrecen reembolsos?",
+      "a4": "Ofrecemos una garantía de devolución de dinero de 30 días si no estás satisfecho con nuestro servicio."
+    },
+    "whatsapp": {
+      "title": "¿Tienes preguntas? ¡Hablemos!",
+      "subtitle": "Obtén recomendaciones personalizadas y respuestas a todas tus preguntas vía WhatsApp.",
+      "cta": "Chatear en WhatsApp",
+      "message": "¡Hola! Estoy interesado en sus cursos de idiomas y me gustaría saber más sobre precios e inscripción."
+    }
+  },
+  "register": {
+    "title": "Registro para cursos de idiomas",
+    "subtitle": "Completa el formulario a continuación para registrarte en uno de nuestros cursos de idiomas. Nuestro equipo te contactará lo antes posible para confirmar el registro y organizar los horarios de las lecciones.",
+    "tab": {
+      "register": "Registro",
+      "payment": "Transferencia bancaria"
+    },
+    "payment": {
+      "title": "Puedes pagar por adelantado",
+      "subtitle": "Vía transferencia a uno de los bancos de abajo",
+      "barid_bank": "Vía BARID BANK",
+      "cih_bank": "Vía CIH BANK",
+      "rib": "RIB",
+      "iban": "IBAN",
+      "account_holder": "Titular de la cuenta",
+      "swift_code": "Código SWIFT",
+      "contact_note": "Después de completar la transferencia, por favor contáctanos vía WhatsApp para confirmar tu registro",
+      "contact_whatsapp": "Contáctanos vía WhatsApp"
+    },
+    "whatsapp": {
+      "message": "¡Hola! He completado el formulario de registro y me gustaría confirmar mi inscripción."
+    }
+  },
+  "whatsapp": {
+    "title": "Contáctanos en WhatsApp",
+    "cta": "Chatear en WhatsApp",
+    "message": "¡Hola! Estoy interesado en sus cursos de idiomas."
+  }
+}

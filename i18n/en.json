@@ -1,0 +1,304 @@
+{
+  "app": {
+    "title": "Learn Academy"
+  },
+  "nav": {
+    "languages": "Languages",
+    "teachers": "Teachers",
+    "login": "Login",
+    "register": "Register",
+    "home": "Home",
+    "pricing": "Pricing",
+    "schedule": "Schedule",
+    "contact": "Contact",
+    "primary": "Primary Navigation",
+    "dashboard": "Dashboard",
+    "language": "Language",
+    "theme": "Theme",
+    "logout": "Logout",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your account to continue",
+      "email": "Email",
+      "email_placeholder": "Enter your email",
+      "password": "Password",
+      "password_placeholder": "Enter your password",
+      "submit": "Sign in",
+      "signing_in": "Signing in...",
+      "error": "Login failed",
+      "no_account": "Don't have an account?",
+      "sign_up": "Sign up",
+      "forgot_password": "Forgot password?",
+      "show_password": "Show password",
+      "hide_password": "Hide password"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Join us and start your language learning journey",
+      "name": "Full Name",
+      "name_placeholder": "Enter your full name",
+      "email": "Email",
+      "email_placeholder": "Enter your email",
+      "password": "Password",
+      "password_placeholder": "Create a password",
+      "language": "Language",
+      "select_language": "Select a language",
+      "level": "Level",
+      "select_level": "Select your level",
+      "submit": "Create account",
+      "registering": "Creating account...",
+      "error": "Registration failed",
+      "have_account": "Already have an account?",
+      "sign_in": "Sign in"
+    }
+  },
+  "languages": {
+    "title": "Available Languages",
+    "subtitle": "Choose from our wide selection of languages and start your learning journey today.",
+    "levels": "Levels",
+    "levels_available": "Available levels",
+    "teachers_available": "Expert teachers available",
+    "view_teachers": "View Teachers",
+    "no_languages": "No languages available",
+    "no_languages_desc": "We're working on adding more languages. Check back soon!",
+    "contact_us": "Contact us for more info"
+  },
+  "teachers": {
+    "title": "Teachers"
+  },
+  "landing": {
+    "available_languages": "Available languages",
+    "meet_teachers": "Meet our teachers",
+    "levels_label": "Levels"
+  },
+  "features": {
+    "title": "Why choose us?",
+    "subtitle": "We provide the best learning experience with our comprehensive approach",
+    "small_groups": {
+      "title": "Small groups",
+      "desc": "Limited students for better interaction"
+    },
+    "flexible_schedules": {
+      "title": "Flexible schedules",
+      "desc": "Morning and evening courses"
+    },
+    "affordable_prices": {
+      "title": "Affordable prices",
+      "desc": "Options for everyone"
+    },
+    "high_quality": {
+      "title": "High quality",
+      "desc": "Expert teachers and quality content"
+    }
+  },
+  "programs": {
+    "quizzes": "Program Quizzes",
+    "meetings": "Program Meetings",
+    "pass_score": "Pass score",
+    "preview_questions": "Preview questions"
+  },
+  "whatsapp": {
+    "title": "Contact us on WhatsApp",
+    "cta": "Chat on WhatsApp",
+    "message": "Hello! I'm interested in your language courses."
+  },
+  "common": {
+    "back_to_dashboard": "Back to dashboard",
+    "view_all": "View all",
+    "prev": "Prev",
+    "next": "Next",
+    "page_of": "Page {page} of {pages}",
+    "saving": "Saving…",
+    "saved": "Saved.",
+    "save_error": "Failed to save changes. Please try again.",
+    "loading": "Loading...",
+    "open": "Open",
+    "no_title": "(no title)"
+  },
+  "meetings": {
+    "title": "Program Meetings",
+    "loading": "Loading…",
+    "load_error": "Failed to load meetings.",
+    "join": "Join",
+    "empty": "No meetings yet."
+  },
+  "footer": {
+    "contact": "Contact us",
+    "quick_links": "Quick links",
+    "about": "About",
+    "about_text": "We offer high‑quality language courses at reasonable prices with expert teachers.",
+    "rights": "All rights reserved."
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "overview": "Overview",
+      "stats": {
+        "languages": "Languages",
+        "levels": "Levels",
+        "programs": "Programs",
+        "meetings": "Meetings"
+      },
+      "recent_programs": "Recent Programs",
+      "recent_meetings": "Upcoming/Recent Meetings",
+      "no_programs": "No programs found.",
+      "no_meetings": "No meetings found.",
+      "quick_actions": "Quick actions",
+      "manage_languages": "Manage languages",
+      "manage_levels": "Manage levels",
+      "manage_programs": "Manage programs",
+      "manage_meetings": "Manage meetings",
+      "settings": "Settings"
+    },
+    "settings": {
+      "title": "Admin Settings",
+      "loading": "Loading settings…",
+      "load_error": "Failed to load settings.",
+      "guest_access": "Guest Access",
+      "allow_guest_languages": "Allow guests to view languages",
+      "allow_guest_teachers": "Allow guests to view teachers",
+      "allow_guest_quizzes": "Allow guests to attempt quizzes"
+    }
+  },
+  "student": {
+    "sidebar": { "title": "Student" },
+    "nav": {
+      "dashboard": "Dashboard",
+      "programs": "Programs",
+      "teachers": "Teachers",
+      "contact": "Contact"
+    },
+    "dashboard": {
+      "title": "Student Dashboard",
+      "welcome": "Welcome",
+      "loading": "Loading dashboard…",
+      "load_error": "Failed to load some data.",
+      "stats": {
+        "my_programs": "My Programs",
+        "my_meetings": "My Meetings",
+        "teachers": "Teachers",
+        "browse": "Browse"
+      },
+      "quick_start": "Quick start",
+      "explore_programs": "Explore programs",
+      "find_teacher": "Find a teacher",
+      "contact_support": "Contact support",
+      "recent_programs": "Recent Programs",
+      "upcoming_meetings": "Upcoming Meetings",
+      "no_programs": "No programs yet. Explore programs to get started.",
+      "no_meetings": "No meetings scheduled."
+    }
+  },
+  "hero": {
+    "tag": "Our Courses",
+    "title": {
+      "line1": "High-quality language",
+      "line2": "courses at reasonable",
+      "line3": "prices"
+    },
+    "subtitle": "Choose the right language for you - remove barriers or start from scratch.",
+    "enroll": "Enroll now",
+    "explore": "Explore languages"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Have questions about our courses? We'd love to hear from you.",
+    "success": "Message sent successfully!",
+    "form": {
+      "title": "Send us a message",
+      "subtitle": "Fill out the form below and we'll get back to you soon.",
+      "name": "Name",
+      "name_placeholder": "Your full name",
+      "email": "Email",
+      "email_placeholder": "your@email.com",
+      "message": "Message",
+      "message_placeholder": "Tell us about your language learning goals...",
+      "submit": "Send message",
+      "sending": "Sending..."
+    },
+    "info": {
+      "title": "Contact Information",
+      "subtitle": "Reach out to us through any of these channels."
+    },
+    "address": {
+      "title": "Address",
+      "content": "123 Learning Street, Education City"
+    },
+    "phone": {
+      "title": "Phone",
+      "content": "+1 (555) 123-4567"
+    },
+    "hours": {
+      "title": "Office Hours",
+      "content": "Mon-Fri: 9AM-6PM"
+    },
+    "cta": {
+      "title": "Ready to start learning?",
+      "subtitle": "Join thousands of students who have improved their language skills with us.",
+      "button": "Get started today"
+    }
+  },
+  "pricing": {
+    "title": "Start Your Language Journey",
+    "subtitle": "Join our comprehensive language learning program designed for all skill levels. Contact us for personalized pricing.",
+    "contact_whatsapp": "Get Pricing via WhatsApp",
+    "featured_plan": "Our Program",
+    "plan": {
+      "name": "Language Learning Program",
+      "description": "Comprehensive language learning with expert teachers and flexible scheduling",
+      "feature1": "Flexible lesson scheduling",
+      "feature2": "Expert native-speaking teachers",
+      "feature3": "Personalized curriculum",
+      "feature4": "Small group or 1-on-1 classes",
+      "feature5": "All skill levels welcome",
+      "feature6": "Progress tracking & assessments",
+      "feature7": "Learning materials included",
+      "feature8": "Ongoing support & guidance",
+      "cta": "Get Started"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "Can I change my plan anytime?",
+      "a1": "Yes, you can upgrade or downgrade your plan at any time. Changes take effect at the next billing cycle.",
+      "q2": "Is there a free trial?",
+      "a2": "We offer a 7-day free trial for all new students. No credit card required to start.",
+      "q3": "What if I miss a lesson?",
+      "a3": "All lessons are recorded and available for 30 days. You can also reschedule with 24-hour notice.",
+      "q4": "Do you offer refunds?",
+      "a4": "We offer a 30-day money-back guarantee if you're not satisfied with our service."
+    },
+    "whatsapp": {
+      "title": "Have questions? Let's chat!",
+      "subtitle": "Get personalized recommendations and answers to all your questions via WhatsApp.",
+      "cta": "Chat on WhatsApp",
+      "message": "Hi! I'm interested in your language courses and would like to know more about pricing and enrollment."
+    }
+  },
+  "register": {
+    "title": "Register for Language Courses",
+    "subtitle": "Fill out the form below to register for one of our language courses. Our team will contact you as soon as possible to confirm registration and arrange lesson times.",
+    "tab": {
+      "register": "Register",
+      "payment": "Bank Transfer"
+    },
+    "payment": {
+      "title": "You can pay in advance",
+      "subtitle": "Via transfer to one of the banks below",
+      "barid_bank": "Via BARID BANK",
+      "cih_bank": "Via CIH BANK",
+      "rib": "RIB",
+      "iban": "IBAN",
+      "account_holder": "Account Holder",
+      "swift_code": "Code SWIFT",
+      "contact_note": "After completing the transfer, please contact us via WhatsApp to confirm your registration",
+      "contact_whatsapp": "Contact us via WhatsApp"
+    },
+    "whatsapp": {
+      "message": "Hi! I've completed the registration form and would like to confirm my enrollment."
+    }
+  }
+}
