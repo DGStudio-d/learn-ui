@@ -9,10 +9,10 @@ import useUser from "@/hooks/useUser";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { setToken } from "@/lib/api";
-import ThemeToggle from "./ThemeToggle";
-import AuthMenu from "./AuthMenu";
+import ThemeToggle from "@/components/ui/ThemeToggle";
+import AuthMenu from "@/components/ui/AuthMenu";
 import LocaleSwitcher from "@/components/ui/locale-switcher";
-import MobileMenu from "./MobileMenu";
+import MobileMenu from "@/components/ui/MobileMenu";
 
 export default function Header() {
   const { t } = useI18n();

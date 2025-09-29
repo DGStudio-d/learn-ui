@@ -27,11 +27,11 @@ export default function AuthMenu({ isAuthed, isAdmin, onLogout }: AuthMenuProps)
       <div className="flex items-center gap-2">
         <Link href="/auth/login">
           <Button variant="ghost" size="sm">
-            {t("auth.login", "Log in")}
+            {t("nav.login", "Login")}
           </Button>
         </Link>
         <Link href="/auth/register">
-          <Button size="sm">{t("auth.sign_up", "Sign up")}</Button>
+          <Button size="sm">{t("nav.register", "Register")}</Button>
         </Link>
       </div>
     );
@@ -48,7 +48,7 @@ export default function AuthMenu({ isAuthed, isAdmin, onLogout }: AuthMenuProps)
       <DropdownMenuContent align="end">
         {isAdmin ? (
           <Link href="/admin">
-            <DropdownMenuItem>{t("nav.admin", "Admin Dashboard")}</DropdownMenuItem>
+            <DropdownMenuItem>{t("admin.dashboard.title", "Admin Dashboard")}</DropdownMenuItem>
           </Link>
         ) : null}
         <Link href="/dashboard">
@@ -57,9 +57,10 @@ export default function AuthMenu({ isAuthed, isAdmin, onLogout }: AuthMenuProps)
         <DropdownMenuSeparator />
         <DropdownMenuItem onClick={onLogout} className="text-red-600 flex items-center gap-2">
           <LogOut className="h-4 w-4" />
-          <span>{t("auth.logout", "Log out")}</span>
+          <span>{t("nav.logout", "Logout")}</span>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );
 }
+
